@@ -10,3 +10,6 @@ class rectangle():
     pass
 newRectangle = rectangle(18, 20)
 print(newRectangle.rectangle_area())
+class square(rectangle):
+        def __init__(self, l):
+                super().__init__(l, l)
