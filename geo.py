@@ -13,3 +13,7 @@ print(newRectangle.rectangle_area())
 class square(rectangle):
         def __init__(self, l):
                 super().__init__(l, l)
+class position:
+	def__init__(self, x, y):
+		self.x = x
+		self.y = y
